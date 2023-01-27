@@ -1,6 +1,6 @@
 import mysql.connector
 from tabulate import tabulate
-database=mysql.connector.connect(host='localhost',user='root',passwd='indeevaram12',database='supermarket')
+database=mysql.connector.connect(host='localhost',user='root',passwd='password',database='supermarket')
 if database.is_connected():
     print("Marginfree Supermarket")
 print("")
