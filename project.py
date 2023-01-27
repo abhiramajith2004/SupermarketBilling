@@ -160,7 +160,7 @@ while l1:
 cursor.execute("delete from temp")
 database.commit()
 database.close()
-
+last = input()
         
                     
                     
